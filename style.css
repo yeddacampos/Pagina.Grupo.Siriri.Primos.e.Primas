@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+.conteiner-princ {
+    position: relative;
+}
+
+.foto {
+    width: 100%;
+    height: auto;
+}
+
+.sobreposição {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(140, 99, 74, 0.3);
+    pointer-events: none;
+}
+
+.cabecalho {
+    position: absolute;
+    top: 7%;
+    left: 50%;
+    color: #ffffff;
+    ;
+    font-size: 20px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-decoration: underline;
+}
+
+.links {
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.historia {
+    text-align: center;
+    padding: 30px 0;
+    height: 800px;
+}
+
+.conteudo {
+    max-width: 800px;
+    margin: 100px auto;
+}
+
+.titulo-historia {
+    font-size: 40px;
+    margin-bottom: 50px;
+    color: #000000;
+}
+
+.texto-historia {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #000000;
+    opacity: 80%;
+}
+
+.agenda {
+    text-align: center;
+    padding: 30px 0;
+    background-color: #f55804;
+}
+
+.datas {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.titulo-agenda {
+    color: #ffffff;
+    letter-spacing: 1.8px;
+    margin-bottom: 15px;
+}
+
+.texto-agenda {
+    color: #ffffff;
+    line-height: 2;
+}
+
+.midias {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.midia {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+.conteudodemidia {
+    width: 25%;
+    margin: 2px 1px;
+}
+
+.titulodemidia {
+    font-size: 40px;
+    margin-bottom: 50px;
+    color: #000000;
+}
+
+.videos {
+    margin-top: 20px;
+}
+
+.projetos {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.boxprojetos {
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+.tituloprojetos {
+    font-size: 40px;
+    margin-bottom: 40px;
+    color: #000000;
+}
+
+.subtituloprojetos {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #f55804;
+}
+
+.paragrafoprojetos {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #000000;
+    opacity: 80%;
+}
+
+.midiaprojeto {
+    width: 100%;
+    height: 100%;
+}
+
+.imgprojeto {
+    width: 25%;
+    margin: 2px 1px;
+}
+
+
+
+
+
+
+    
