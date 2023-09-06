@@ -6,7 +6,7 @@
 }
 
 .conteiner-princ {
-    position: relative;
+    text-align: center;
 }
 
 .foto {
@@ -14,24 +14,11 @@
     height: auto;
 }
 
-.sobreposição {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(140, 99, 74, 0.3);
-    pointer-events: none;
-}
-
 .cabecalho {
-    position: absolute;
-    top: 7%;
-    left: 50%;
     font-size: 20px;
-    transform: translate(-50%, -50%);
+    background-color: #f55804;
     text-align: center;
-    text-decoration: underline;
+    padding: 20px 0;
 }
 
 .links {
@@ -42,8 +29,7 @@
 
 .historia {
     text-align: center;
-    padding: 30px 0;
-    height: 800px;
+    padding: 100px 80px;
 }
 
 .conteudo {
@@ -122,7 +108,7 @@
 }
 
 .boxprojetos {
-    max-width: 800px;
+    max-width: 80%;
     margin: 50px auto;
 }
 
@@ -156,6 +142,7 @@
     margin: 2px 1px;
 }
 
+
 .boxcolaboradores {
     text-align: center;
     padding: 200px 0;
@@ -185,13 +172,14 @@
 }
 
 .boxcontato {
+    max-width: 100%;
     text-align: center;
     padding: 30px 0;
     background-color: #f55804;
 }
 
 .conteudocontato {
-    max-width: 800px;
+    max-width: 100%;
     margin: 30px auto;
     display: flex;
     flex-direction: column;
@@ -209,11 +197,11 @@
 }
 
 .link1:hover,.links:hover {
-    color: rgb(252, 206, 170);
+    color: rgb(172, 172, 172);
 }
 
 .link1:visited,.links:visited {
-    color: rgb(255, 192, 120);
+    color: #D9A08B;
 }
 
 .footer {
@@ -223,4 +211,17 @@
     margin: 50px;
 }
 
-    
+@media screen and (max-width: 900px) {
+    .links {
+        margin-left: 10px;
+        cursor: pointer;
+        color: #ffffff;
+        font-size: 12px;
+    }
+
+    .videoyt {
+        max-width: 90%;
+    }
+
+
+}    
