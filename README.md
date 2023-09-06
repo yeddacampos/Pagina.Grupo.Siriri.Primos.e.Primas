@@ -5,3 +5,9 @@
 <P>O projeto tem como objetivo final o desenvolvimento de uma página simples para um grupo de dança folclorica local.</P>
 
 <img src="Imgs/127.0.0.1_5500_ (2).png">
+
+<h2>Tecnologias utilizadas:</h2>
+<ul>
+  <li>HTML</li> 
+  <li>CSS</li>
+</ul>
