@@ -4,4 +4,4 @@
 
 <P>O projeto tem como objetivo final o desenvolvimento de uma página simples para um grupo de dança folclorica local.</P>
 
-<img src="">
+<img src="Imgs/127.0.0.1_5500_ (2).png">
