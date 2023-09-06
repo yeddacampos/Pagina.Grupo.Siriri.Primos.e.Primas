@@ -29,12 +29,12 @@
 
 .historia {
     text-align: center;
-    padding: 100px 80px;
+    padding: 100px 0px;
 }
 
 .conteudo {
-    max-width: 800px;
-    margin: 100px auto;
+    max-width: 75%;
+    margin: 50px auto;
 }
 
 .titulo-historia {
@@ -48,6 +48,7 @@
     line-height: 1.8;
     color: #000000;
     opacity: 80%;
+    text-align: justify;
 }
 
 .agenda {
@@ -104,12 +105,12 @@
 
 .projetos {
     text-align: center;
-    padding: 30px 0;
+    padding: 50px 0;
 }
 
 .boxprojetos {
-    max-width: 80%;
-    margin: 50px auto;
+    max-width: 75%;
+    margin: 30px auto;
 }
 
 .tituloprojetos {
@@ -123,6 +124,7 @@
     font-size: 30px;
     margin-bottom: 20px;
     color: #f55804;
+    text-align: justify;
 }
 
 .paragrafoprojetos {
@@ -130,6 +132,7 @@
     line-height: 1.8;
     color: #000000;
     opacity: 80%;
+    text-align: justify;
 }
 
 .midiaprojeto {
