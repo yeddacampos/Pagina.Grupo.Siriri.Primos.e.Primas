@@ -28,8 +28,6 @@
     position: absolute;
     top: 7%;
     left: 50%;
-    color: #ffffff;
-    ;
     font-size: 20px;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -39,6 +37,7 @@
 .links {
     margin-left: 40px;
     cursor: pointer;
+    color: #ffffff;
 }
 
 .historia {
@@ -73,7 +72,7 @@
 
 .datas {
     max-width: 800px;
-    margin: 0 auto;
+    margin: 100px auto;
 }
 
 .titulo-agenda {
@@ -110,6 +109,7 @@
     font-size: 40px;
     margin-bottom: 50px;
     color: #000000;
+    letter-spacing: 1.8px;
 }
 
 .videos {
@@ -130,6 +130,7 @@
     font-size: 40px;
     margin-bottom: 40px;
     color: #000000;
+    letter-spacing: 1.8px;
 }
 
 .subtituloprojetos {
@@ -155,9 +156,71 @@
     margin: 2px 1px;
 }
 
+.boxcolaboradores {
+    text-align: center;
+    padding: 200px 0;
+}
 
+.conteudocolaboradores {
+    max-width: 800px;
+    margin: 50px auto;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
 
+.titulocolaboradores {
+    font-size: 40px;
+    color: #000000;    
+    margin-bottom: 50px;
+    letter-spacing: 1.8px;
 
+}
 
+.smecel {
+    width: 240px;
+}
+
+.boxcontato {
+    text-align: center;
+    padding: 30px 0;
+    background-color: #f55804;
+}
+
+.conteudocontato {
+    max-width: 800px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulocontato {
+    color: #ffffff;
+    font-size: 40px;
+    letter-spacing: 1.8px;
+}
+
+.link1 {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.link1:hover,.links:hover {
+    color: rgb(252, 206, 170);
+}
+
+.link1:visited,.links:visited {
+    color: rgb(255, 192, 120);
+}
+
+.footer {
+    font-size: 12px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 50px;
+}
 
     
