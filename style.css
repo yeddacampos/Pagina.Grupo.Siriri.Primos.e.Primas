@@ -25,6 +25,7 @@
     margin-left: 40px;
     cursor: pointer;
     color: #ffffff;
+    text-decoration: none;
 }
 
 .historia {
@@ -90,6 +91,7 @@
 .conteudodemidia {
     width: 25%;
     margin: 2px 1px;
+    border-radius: 10px;
 }
 
 .titulodemidia {
@@ -143,6 +145,7 @@
 .imgprojeto {
     width: 25%;
     margin: 2px 1px;
+    border-radius: 10px;
 }
 
 
